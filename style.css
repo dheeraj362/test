@@ -1,0 +1,196 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Baloo Bhai 2", cursive;
+}
+
+#navbar::before {
+  content: "";
+  position: absolute;
+  background-color: rgb(250, 19, 19);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+#navbar {
+  position: sticky;
+  top: 0px;
+  display: flex;
+
+  justify-content: space-between;
+}
+#navbar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-right: 20px;
+}
+#navbar ul li {
+  margin: 20px;
+}
+#navbar ul li a {
+  color: blanchedalmond;
+  text-decoration: none;
+  padding: 0px 10px;
+}
+
+#navbar ul li a:hover {
+  color: white;
+  background-color: black;
+  border-radius: 20px;
+}
+
+#navbar div {
+  display: flex;
+  align-items: center;
+}
+
+#navbar img {
+  border-radius: 30px;
+}
+
+#navbar div h2 {
+  background-color: white;
+  padding: 0px 10px;
+  margin: 0px 10px;
+  border-radius: 20px;
+}
+
+#navbar div h2 a {
+  text-decoration: none;
+}
+
+#section1::before {
+  content: "";
+  position: absolute;
+  background: url(./200124_Vignette_Web_Detail.jpg) no-repeat center/cover;
+  width: 100%;
+  height: 452px;
+  z-index: -1;
+  opacity: 0.8;
+}
+
+#section1 {
+  color: blanchedalmond;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#section1 h1 {
+  padding: 50px 0px;
+  font-size: 2.8rem;
+}
+
+#section1 p {
+  text-align: center;
+  padding: 0px 50px;
+  font-size: 1.2rem;
+  color: whitesmoke;
+}
+
+#services {
+  margin-top: 130px;
+}
+#services div {
+  display: flex;
+}
+
+#services h1 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  background-color: rgb(125, 217, 240, 0.3);
+
+  border-radius: 20px;
+  padding: 15px;
+  margin: 15px;
+  text-align: center;
+}
+
+#services div img {
+  display: block;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+}
+
+#patner::before {
+  content: "";
+  position: absolute;
+  background: url(./Feature-Image.png) no-repeat;
+  width: 100%;
+  height: 356px;
+  z-index: -2;
+  opacity: 0.9;
+}
+
+#patner h1 {
+  font-size: 2.8rem;
+  text-align: center;
+}
+
+#patner .div {
+  display: flex;
+
+  justify-content: center;
+  padding: 10px;
+}
+#patner .img {
+  padding: 10px;
+  margin: 0px 20px;
+  margin-top: 30px;
+}
+
+#contact::before{
+  content: "";
+  background: url(./best-contact-us-pages.png) no-repeat center;
+  position: absolute;
+  width: 100%;
+  height: 575px;
+  z-index: -1;
+  
+}
+
+#contact {
+  
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  margin-bottom: 13px;
+}
+
+#contact h1 {
+  font-size: 2.8rem;
+}
+
+#contact .form {
+  font-size: 1.6rem;
+  justify-content: center;
+}
+
+input,
+textarea {
+  border: 2px solid black;
+  text-decoration: none;
+  font-size: 1.1rem;
+  border-radius: 10px;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  background-color: black;
+  padding: 7px;
+}
